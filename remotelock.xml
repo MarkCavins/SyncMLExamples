@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>1</SessionID>
+    <MsgID>16</MsgID>
+    <Target>
+      <LocURI>urn:uuid:8A078DD8-90AB-525D-86C7-6B963A35EC7E</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://app1826.auto.mobileiron.com/mifs/c/wp/oma/mdm.html?c=2f0bd185-db89-4204-b10d-5782d8e9e00f</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>z37B5wemc2UnJeaLd5WLxw==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+    <Status>
+      <CmdID>39</CmdID>
+      <MsgRef>16</MsgRef>
+      <CmdRef>0</CmdRef>
+      <Cmd>SyncHdr</Cmd>
+      <Data>212</Data>
+    </Status>
+    <Status>
+      <CmdID>40</CmdID>
+      <MsgRef>16</MsgRef>
+      <CmdRef>3</CmdRef>
+      <Cmd>Results</Cmd>
+      <Data>200</Data>
+    </Status>
+    <Exec>
+      <CmdID>41</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/RemoteLock/Lock</LocURI>
+        </Target>
+      </Item>
+    </Exec>
+    <Final/>
+  </SyncBody>
+</SyncML>

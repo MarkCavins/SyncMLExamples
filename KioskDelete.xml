@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>52</SessionID>
+    <MsgID>6</MsgID>
+    <Target>
+      <LocURI>93CADB477046B648AE82B1A31885DFE1</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://eapp249.auto.mobileiron.com/</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>r1eUExGLEbO+b13BlpXUnQ==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+      <Delete>
+           <CmdID>2</CmdID>
+           <Item>
+               <Target>
+                   <LocURI>./Device/Vendor/MSFT/AssignedAccess/KioskModeApp</LocURI>
+               </Target>
+           </Item>
+       </Delete>
+       <Final />
+  </SyncBody>
+</SyncML>

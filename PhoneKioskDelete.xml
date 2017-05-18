@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncBody>
+      <Delete>
+           <CmdID>2</CmdID>
+           <Item>
+               <Target>
+                   <LocURI>./Device/Vendor/MSFT/EnterpriseAssignedAccess/AssignedAccess/AssignedAccessXml</LocURI>
+               </Target>
+           </Item>
+       </Delete>
+       <Final />
+  </SyncBody>
+</SyncML>

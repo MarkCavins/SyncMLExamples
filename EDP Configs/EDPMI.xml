@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>19</SessionID>
+    <MsgID>11</MsgID>
+    <Target>
+      <LocURI>2CC35ED6763ABD47BDF50FE7DFCF0524</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://eapp008.auto.mobileiron.com/mifs/c/wp/oma/mdm.html?c=31668821-3c25-4858-9ef9-4f47aab84926</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>bcopO4UvN2w7rnAWHOc8ig==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+    <Status>
+      <CmdID>27</CmdID>
+      <MsgRef>11</MsgRef>
+      <CmdRef>0</CmdRef>
+      <Cmd>SyncHdr</Cmd>
+      <Data>212</Data>
+    </Status>
+    <Replace>
+      <CmdID>28</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/EnterpriseDataProtection/Group_31668821-3c25-4858-9ef9-4f47aab84926/EXE/Policy</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>&lt;RuleCollection Type="EXE" EnforcementMode="Enabled"&gt;&lt;FilePathRule Id="9236d123-da3d-4cd8-b97a-a6ffa92d2d7e" Name="EDP-apps_Allow_%PROGRAMFILES%\Google\Chrome\Application\chrome.exe" Description="Chrome" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;&lt;Conditions&gt;&lt;FilePathCondition Path="%PROGRAMFILES%\Google\Chrome\Application\chrome.exe"/&gt;&lt;/Conditions&gt;&lt;/FilePathRule&gt;&lt;FilePublisherRule Id="69a5a020-f780-40a8-a872-2f51813ec12d" Name="EDP-apps_Allow_IEXPLORE.EXE_INTERNET EXPLORER_*" Description="IE" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;&lt;Conditions&gt;&lt;FilePublisherCondition PublisherName="*" ProductName="INTERNET EXPLORER" BinaryName="IEXPLORE.EXE"&gt;&lt;BinaryVersionRange LowSection="*" HighSection="*"/&gt;&lt;/FilePublisherCondition&gt;&lt;/Conditions&gt;&lt;/FilePublisherRule&gt;&lt;FilePublisherRule Id="887c4577-1507-41b0-9d84-e1ed5123d5e9" Name="EDP-apps_Allow_WINWORD.EXE_MICROSOFT OFFICE 2016_*" Description="Word 2016" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;&lt;Conditions&gt;&lt;FilePublisherCondition PublisherName="*" ProductName="MICROSOFT OFFICE 2016" BinaryName="WINWORD.EXE"&gt;&lt;BinaryVersionRange LowSection="*" HighSection="*"/&gt;&lt;/FilePublisherCondition&gt;&lt;/Conditions&gt;&lt;/FilePublisherRule&gt;&lt;/RuleCollection&gt;</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/EnterpriseDataProtection/Group_31668821-3c25-4858-9ef9-4f47aab84926/StoreApps/Policy</LocURI>
+        </Target>
+ <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>&lt;RuleCollection Type="Appx" EnforcementMode="Enabled"&gt;&lt;FilePublisherRule Id="22ed8d75-5ded-449d-9ac6-400a5c6589f7" Name="EDP-apps_Allow_*_57826SimplifyDesigns.NotepadNext_*" Description="Notepad Next" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;&lt;Conditions&gt;&lt;FilePublisherCondition PublisherName="*" ProductName="57826SimplifyDesigns.NotepadNext" BinaryName="*"&gt;&lt;BinaryVersionRange LowSection="*" HighSection="*"/&gt;&lt;/FilePublisherCondition&gt;&lt;/Conditions&gt;&lt;/FilePublisherRule&gt;&lt;FilePublisherRule Id="04a7f4ba-86e5-4f3a-aad9-5681388116db" Name="EDP-apps_Allow_*_9E2F88E3.Twitter_*" Description="Twitter" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;&lt;Conditions&gt;&lt;FilePublisherCondition PublisherName="*" ProductName="9E2F88E3.Twitter" BinaryName="*"&gt;&lt;BinaryVersionRange LowSection="*" HighSection="*"/&gt;&lt;/FilePublisherCondition&gt;&lt;/Conditions&gt;&lt;/FilePublisherRule&gt;&lt;FilePublisherRule Id="1cdfe8e1-f382-43a8-ab16-2dfae215cae9" Name="EDP-apps_Allow_*_Microsoft.MicrosoftEdge_*" Description="Edge" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;&lt;Conditions&gt;&lt;FilePublisherCondition PublisherName="*" ProductName="Microsoft.MicrosoftEdge" BinaryName="*"&gt;&lt;BinaryVersionRange LowSection="*" HighSection="*"/&gt;&lt;/FilePublisherCondition&gt;&lt;/Conditions&gt;&lt;/FilePublisherRule&gt;&lt;/RuleCollection&gt;</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/DataRecoveryCertificate</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">b64</Format>
+        </Meta>
+        <Data>aqabaaeaaaceawaamgmaaaaaaaacaaaafgmaabwaaaaaaaaaaaaaadcca3owggji
+oamcaqicebubxdr1r4+cqr2x6pcchnqwdqyjkozihvcnaqefbqawsjeqma4ga1ue
+axmhdg1hdghlcjemmaoga1uebxmdruztmsgwjgydvqqlex9frlmgrmlszsbfbmny
+exb0aw9uienlcnrpzmljyxrlmcaxdte2mdqynjizmjkwmloydzixmtywndaymjmy
+otaywjbkmrawdgydvqqdewd0bwf0agvymqwwcgydvqqhewnfrlmxkdambgnvbast
+h0vguybgawxlievuy3j5chrpb24gq2vydglmawnhdguwggeima0gcsqgsib3dqeb
+aquaa4ibdwawggekaoibaqdtriiinzbg+kptdd7j+xwexzsgn9v1ilee34jcbqoh
+08emqssrlgj1ufu/bwjbk7gu41g9z1fnv+zxeaekythbctgl4+ldpmeumpm3bzev
+aafm0ussiqjdqbdi22pusnwvcihpl+7xvj4oqyyeq44ig2h4clogoxz4qr3ik8h0
+jmmzaskylno5evwwqpsc6/twtojt5pu72salyy8zlghq398qdemfn68lhlgez0hy
+2xcgmqpudoiopytrnp1+oeobomg5u7i5sztrjpa0fbpmxrrivwczdnxshpwda3pj
+ljv2mwf45uauhfif811fdstmcg+3rm6k1ejuzews7jgxagmbaagjwjbymbyga1ud
+jqqpma0gcysgaqqbgjckawqbmdmga1udeqqsmcqgkaykkwybbagcnxqca6aadbh0
+bwf0agvyqerfu0tut1attuqwrzbvoaawcqydvr0tbaiwadanbgkqhkig9w0baquf
+aaocaqeaao98ccg04yioz1tny58pfkcamluwxl6j+1yclwurmxtfxr4xzrfbbnwi
+9/z0gd+lmeho4x0cibtw7/dfjeeoiuxrdmha/s67zwvtmtg/kecmjin/7rfztloo
+iuepxzw0t7v7aba7cnlhoyow+8+yvykp5nnmfcypqhdv4x2l8cs3dp8wwvwkxuji
+jddxqqrims/08kvbgxsdpev1ev5e1jqx6vpdqkiwiq6sxbd0n684y/b+ttwd4o5x
+w9t1uo3x87a+tck2lcl+chjsns6xmkpgafkqscvyhkxysd3ztan9tdjh9dwckhqk
+hvn8cbblry6c1vxw02yddftz+fklaa==</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/EDPEnforcementLevel</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+      </Item>
+ <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/AllowUserDecryption</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/EDPShowIcons</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/RevokeOnUnenroll</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/EnterpriseProtectedDomainNames</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>mobileiron.com|crabdance.com|muffinpuffer.com</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseNetworkDomainNames</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>muffinpuffer.com</Data>
+      </Item>
+<Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseIPRange</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>208.113.184.146 - 208.113.184.146</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseIPRangesAreAuthoritative</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+      </Item>
+    </Replace>
+    <Final/>
+  </SyncBody>
+</SyncML>

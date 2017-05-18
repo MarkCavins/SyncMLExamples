@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>7A</SessionID>
+    <MsgID>7</MsgID>
+    <Target>
+      <LocURI>urn:uuid:783DB168-03D7-5330-924F-A986D1AFCA68</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://app534.auto.mobileiron.com/mifs/c/wp/oma/mdm.html?c=f574ee9a-9589-4f81-ae4a-b74456a6e1b0</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>2h9TPGAP4Cn1KSP4Nx1UeQ==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+    <Status>
+      <CmdID>18</CmdID>
+      <MsgRef>7</MsgRef>
+      <CmdRef>0</CmdRef>
+      <Cmd>SyncHdr</Cmd>
+      <Data>212</Data>
+    </Status>
+    <Sequence>
+      <CmdID>19</CmdID>
+      <Exec>
+        <CmdID>20</CmdID>
+        <Item>
+          <Target>
+            <LocURI>./Vendor/MSFT/RemoteLock/LockAndResetPIN</LocURI>
+          </Target>
+        </Item>
+      </Exec>
+      <Get>
+        <CmdID>21</CmdID>
+        <Item>
+          <Target>
+            <LocURI>./Vendor/MSFT/RemoteLock/NewPINValue</LocURI>
+          </Target>
+        </Item>
+      </Get>
+    </Sequence>
+    <Final/>
+  </SyncBody>
+</SyncML>

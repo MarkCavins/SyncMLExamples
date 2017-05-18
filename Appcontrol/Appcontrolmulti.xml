@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>E</SessionID>
+    <MsgID>9</MsgID>
+    <Target>
+      <LocURI>urn:uuid:85425F78-25EA-50A1-8EFA-F20C059BE0A8</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://eapp031.auto.mobileiron.com/mifs/c/wp/oma/mdm.html?c=f64c686e-202c-4ef2-9e75-31db85f82a0f</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>HS2Euw/3vP21EJrvdVy6qQ==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+    <Status>
+      <CmdID>21</CmdID>
+      <MsgRef>9</MsgRef>
+      <CmdRef>0</CmdRef>
+      <Cmd>SyncHdr</Cmd>
+      <Data>212</Data>
+    </Status>
+    <Atomic>
+      <CmdID>22</CmdID>
+      <Replace>
+        <CmdID>23</CmdID>
+        <Item>
+          <Target>
+            <LocURI>./Vendor/MSFT/Policy/Config/ApplicationManagement/ApplicationRestrictions</LocURI>
+          </Target>
+          <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+            <Type xmlns="syncml:metinf">text/plain</Type>
+          </Meta>
+          <Data>&lt;AppPolicy Version="1" xmlns="http://schemas.microsoft.com/phone/2013/policy"&gt;&lt;Allow&gt;&lt;App ProductId="{f0d8fefd-31cd-43a1-a45a-d0276db069f1}"/&gt;&lt;App ProductId="{39cf127b-8c67-c149-539a-c02271d07060}"/&gt;&lt;App ProductId="{ead3e7c0-fae6-4603-8699-6a448138f4dc}"/&gt;&lt;App ProductId="{82a23635-5bd9-df11-a844-00237de2db9e}"/&gt;&lt;App ProductId="{395589fb-5884-4709-b9df-f7d558663ffd}"/&gt;&lt;/Allow&gt;&lt;/AppPolicy&gt;</Data>
+        </Item>
+      </Replace>
+    </Atomic>
+    <Final/>
+  </SyncBody>
+</SyncML>

@@ -1,0 +1,35 @@
+<SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncBody>
+    <Replace>
+      <CmdID>1</CmdID>
+      <Item>
+        <Target>
+          <LocURI>
+            ./Vendor/MSFT/Personalization/LockScreenImageUrl
+          </LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+          <Type>text/plain</Type>
+        </Meta>
+        <Data>http://muffinpuffer.com/teemo/cute.png</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>2</CmdID>
+      <Item>
+        <Target>
+          <LocURI>
+            ./Vendor/MSFT/Personalization/DesktopImageUrl
+          </LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+          <Type>text/plain</Type>
+        </Meta>
+        <Data>http://muffinpuffer.com/teemo/littled.png</Data>
+      </Item>
+    </Replace>
+    <Final/> 
+  </SyncBody>
+</SyncML>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>59</SessionID>
+    <MsgID>5</MsgID>
+    <Target>
+      <LocURI>858A02ECF16A7B4CA4B008DD0E684AA4</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://jellyfish.twilightparadox.com/mifs/c/wp/oma/mdm.html?c=21fb9f67-48e0-4c78-9732-2ecc57dde220</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>GTx03WsReyyXBjJCACTWmg==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+    <Status>
+      <CmdID>13</CmdID>
+      <MsgRef>5</MsgRef>
+      <CmdRef>0</CmdRef>
+      <Cmd>SyncHdr</Cmd>
+      <Data>212</Data>
+    </Status>
+    <Replace>
+      <CmdID>14</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/System/AllowStorageCard</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Camera/AllowCamera</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/Wifi/AllowInternetSharing</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/ApplicationManagement/AllowStore</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Accounts/AllowAddingNonMicrosoftAccountsManually</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Connectivity/AllowVPNRoamingOverCellular</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/WiFi/AllowWiFiHotSpotReporting</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Connectivity/AllowCellularDataRoaming</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Accounts/AllowMicrosoftAccountConnection</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Connectivity/AllowBluetooth</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/WiFi/AllowManualWiFiConfiguration</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Connectivity/AllowNFC</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Connectivity/AllowUSBConnection</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Experience/AllowSaveAsOfOfficeFiles</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Browser/AllowBrowser</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/WiFi/AllowAutoConnectToWiFiSenseHotspots</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Experience/AllowCopyPaste</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/System/AllowTelemetry</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Experience/AllowSharingOfOfficeFiles</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Experience/AllowSyncMySettings</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/AboveLock/AllowActionCenterNotifications</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/ApplicationManagement/AllowDeveloperUnlock</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Search/AllowSearchToUseLocation</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Security/AllowManualRootCertificateInstallation</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Search/AllowStoringImagesFromVisionSearch</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Experience/AllowVoiceRecording</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/DeviceLock/AllowIdleReturnWithoutPassword</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Experience/AllowCortana</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/System/AllowLocation</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Experience/AllowScreenCapture</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/WiFi/AllowWiFi</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/System/AllowUserToResetPhone</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Experience/AllowManualMDMUnenrollment</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+    </Replace>
+    <Final/>
+  </SyncBody>
+</SyncML>

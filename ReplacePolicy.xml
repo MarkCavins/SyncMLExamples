@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>52</SessionID>
+    <MsgID>6</MsgID>
+    <Target>
+      <LocURI>93CADB477046B648AE82B1A31885DFE1</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://eapp131.auto.mobileiron.com/mifs/c/wp/oma/mdm.html?c=8a842eda-5253-47be-b3d6-3fa1eff47f61</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>r1eUExGLEbO+b13BlpXUnQ==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+    <Status>
+      <CmdID>15</CmdID>
+      <MsgRef>6</MsgRef>
+      <CmdRef>0</CmdRef>
+      <Cmd>SyncHdr</Cmd>
+      <Data>212</Data>
+    </Status>
+    <Replace>
+      <CmdID>1600</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/PolicyManager/My/Connectivity/AllowBluetooth</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+      </Item>
+    </Replace>
+    <Final/>
+  </SyncBody>
+</SyncML>

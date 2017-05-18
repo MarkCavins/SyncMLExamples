@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>56</SessionID>
+    <MsgID>7</MsgID>
+    <Target>
+      <LocURI>858A02ECF16A7B4CA4B008DD0E684AA4</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://jellyfish.twilightparadox.com/mifs/c/wp/oma/mdm.html?c=21fb9f67-48e0-4c78-9732-2ecc57dde220</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>GTx03WsReyyXBjJCACTWmg==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+    <Status>
+      <CmdID>17</CmdID>
+      <MsgRef>7</MsgRef>
+      <CmdRef>0</CmdRef>
+      <Cmd>SyncHdr</Cmd>
+      <Data>212</Data>
+    </Status>
+    <Atomic>
+      <CmdID>18</CmdID>
+      <Add>
+        <CmdID>19</CmdID>
+        <Item>
+          <Target>
+            <LocURI>./Vendor/MSFT/VPNv2/vpn-1/RememberCredentials</LocURI>
+          </Target>
+          <Meta>
+            <Format xmlns="syncml:metinf">bool</Format>
+          </Meta>
+          <Data>true</Data>
+        </Item>
+      </Add>
+      <Add>
+        <CmdID>20</CmdID>
+        <Item>
+          <Target>
+            <LocURI>./Vendor/MSFT/VPNv2/vpn-1/AlwaysOn</LocURI>
+          </Target>
+          <Meta>
+            <Format xmlns="syncml:metinf">bool</Format>
+          </Meta>
+          <Data>false</Data>
+        </Item>
+      </Add>
+      <Add>
+        <CmdID>21</CmdID>
+        <Item>
+          <Target>
+            <LocURI>./Vendor/MSFT/VPNv2/vpn-1/PluginProfile/ServerUrlList</LocURI>
+          </Target>
+          <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+          </Meta>
+          <Data>vpn.server.com</Data>
+        </Item>
+      </Add>
+      <Add>
+        <CmdID>22</CmdID>
+        <Item>
+          <Target>
+            <LocURI>./Vendor/MSFT/VPNv2/vpn-1/PluginProfile/PluginPackageFamilyName</LocURI>
+          </Target>
+          <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+          </Meta>
+          <Data>951D7986.PulseSecureVPN_qzpvqh70t9a4p</Data>
+        </Item>
+      </Add>
+      <Add>
+        <CmdID>23</CmdID>
+        <Item>
+          <Target>
+            <LocURI>./Vendor/MSFT/VPNv2/vpn-1/PluginProfile/CustomConfiguration</LocURI>
+          </Target>
+          <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+          </Meta>
+          <Data>&lt;pulse-schema&gt;&lt;isSingleSignOnCredential&gt;true&lt;/isSingleSignOnCredential&gt;&lt;/pulse-schema&gt;</Data>
+        </Item>
+      </Add>
+    </Atomic>
+    <Final/>
+  </SyncBody>
+</SyncML>

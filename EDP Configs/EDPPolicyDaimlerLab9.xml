@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncBody>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/EDPEnforcementLevel</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>2</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/EnterpriseProtectedDomainNames</LocURI>
+        </Target>
+        <Data>daimler.com|corpinter.net|corpintra.net|extaccount.com</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/AllowUserDecryption</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/RequireProtectionUnderLockConfig</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/DataRecoveryCertificate</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">b64</Format>
+        </Meta>
+        <Data>AQABAAEAAACVAwAAkQMAAAAAAAACAAAAdQMAABwAAAAAAAAAAAAAADCCA3EwggJZoAMCAQICEEdi7tWy1R6aQqeec+S+iOgwDQYJKoZIhvcNAQEFBQAwRzENMAsGA1UEAxMEdGVzdDEMMAoGA1UEBxMDRUZTMSgwJgYDVQQLEx9FRlMgRmlsZSBFbmNyeXB0aW9uIENlcnRpZmljYXRlMCAXDTE2MDQwNTIwNTY0MFoYDzIxMTYwMzEyMjA1NjQwWjBHMQ0wCwYDVQQDEwR0ZXN0MQwwCgYDVQQHEwNFRlMxKDAmBgNVBAsTH0VGUyBGaWxlIEVuY3J5cHRpb24gQ2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDjopf1Wz6OmWrL/bifbxSQIqCRiq7qMGH7ECWYq08DGxjktvreWg3Zp587F3F3jlKmc0gRoc0B2/P3T5Q9RXGQiR2bU8N6FBt828uGC07imK9W4rveKARS5dc+fEGEk+XswhUZYA9glZ7mgSPLEOAp5eCjVsfZBHNgLevscSgH+53dVCRsVf4Hzdq1TINRKRfD4gJz2pinVMqrl0s7ruqWtMsUc8SPlKawW5aE++hEpLrxrjrKMxJ/sorCIkpAEooAvXVTA0HVQ7t/u3UDlZNdzP04n/5c5j3fWrrt8x6Np82uEIir5d8PfRh7DbfSilxEF62OuPuR3+FF7EBw+7mhAgMBAAGjVzBVMBYGA1UdJQQPMA0GCysGAQQBgjcKAwQBMDAGA1UdEQQpMCegJQYKKwYBBAGCNxQCA6AXDBV0ZXN0QERFU0tUT1AtSkxCVDlTOQAwCQYDVR0TBAIwADANBgkqhkiG9w0BAQUFAAOCAQEAoi5ijtjiGb1qR84nunHA/UxqwCZGg/vBxZhVDmpwmK2KTt5ngDx7pwfWXMYT6xvI1sYF7txs6gA9zf7cf9xTqfjXm2Tav/aKnULRFGlpuPTx1+dE0UaAKlE7pi3/KlPmYqcf8fKamoDaS2BKu6nkE5y+4oWCcpSNAKKqH/+6hwICyGd4rbxF0MbI6ZvqQAMUd4MH6sPvZTSBGUvKs1PuvNEJ+chbHZKfGG2xOybkS2kcUZe6Z83DfEcXYiPuCNaWMWaFA64vwbFOzRLsXd+e7om/ULYzpAKfd84v4unvRoa58S4J/1yWq4bXv8EwqAPs45XBqog+44vWAct01HLdAw==</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/RevokeOnUnenroll</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/AllowAzureRMSForEDP</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/RMSTemplateIDForEDP</LocURI>
+        </Target>
+        <Data/>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/EnterpriseDataProtection/Settings/EDPShowIcons</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseNetworkDomainNames</LocURI>
+        </Target>
+        <Data>daimler.com,corpinter.net,corpintra.net,extaccount.com</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseIPRange</LocURI>
+        </Target>
+        <Data>53.0.0.1-53.255.255.255</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseIPRangesAreAuthoritative</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>1</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseProxyServers</LocURI>
+        </Target>
+        <Data/>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseInternalProxyServers</LocURI>
+        </Target>
+        <Data/>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/NetworkIsolation/EnterpriseCloudResources</LocURI>
+        </Target>
+        <Data/>
+      </Item>
+    </Replace>
+    <Add>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/EnterpriseDataProtection/Microsoft</LocURI>
+        </Target>
+      </Item>
+    </Add>
+    <Add>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/EnterpriseDataProtection/MicrosoftEdpExempt</LocURI>
+        </Target>
+      </Item>
+    </Add>
+    <Add>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/EnterpriseDataProtection/Microsoft/EXE</LocURI>
+        </Target>
+      </Item>
+    </Add>
+    <Add>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/EnterpriseDataProtection/MicrosoftEdpExempt/EXE</LocURI>
+        </Target>
+      </Item>
+    </Add>
+    <Add>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/EnterpriseDataProtection/Microsoft/StoreApps</LocURI>
+        </Target>
+      </Item>
+    </Add>
+    <Add>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/EnterpriseDataProtection/MicrosoftEdpExempt/StoreApps</LocURI>
+        </Target>
+      </Item>
+    </Add>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/EnterpriseDataProtection/Microsoft/StoreApps/Policy</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>
+					&lt;RuleCollection Type="Appx" EnforcementMode="Enabled"&gt;
+					&lt;FilePublisherRule Id="baa06056-baea-4c8b-b8d3-078e0d1c3ef9" Name="Microsoft.Office.Outlook, from Microsoft Corporation" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.Office.Outlook" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;FilePublisherRule Id="f2e0408e-cde2-426e-95bb-98b19f2c3cc4" Name="Microsoft.Office.Excel, from Microsoft Corporation" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.Office.Excel" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;FilePublisherRule Id="68d6d57f-4cef-4850-9537-36a031d19e34" Name="Microsoft.Office.OneNote, from Microsoft Corporation" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.Office.OneNote" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;FilePublisherRule Id="8a2837e6-e32a-4e71-ac5c-7ab4b493db13" Name="Microsoft.Office.PowerPoint, from Microsoft Corporation" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.Office.PowerPoint" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;FilePublisherRule Id="b897dcb2-a0f3-4ae9-901d-eb59fff71a5a" Name="Microsoft.Office.Word, from Microsoft Corporation" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.Office.Word" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;FilePublisherRule Id="bbc37f7f-0a04-4e61-a3fd-71e52faf4709" Name="Microsoft.Windows.Photos, from Microsoft Corporation" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.Windows.Photos" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;FilePublisherRule Id="ea2d5d83-cbb7-44d9-81b6-dd4c4f5a3ffa" Name="Microsoft.People, from Microsoft Corporation" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.People" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;FilePublisherRule Id="78b75aa6-b143-4d5e-94d1-c6f54af5132b" Name="microsoft.windowscommunicationsapps, from CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="microsoft.windowscommunicationsapps" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;FilePublisherRule Id="cec00f06-7354-44db-936d-7ebe0fd33dfa" Name="Microsoft.MicrosoftEdge, from Microsoft Corporation" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.MicrosoftEdge" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;FilePublisherRule Id="a732807e-ff3b-4139-ab46-bf0923f9ec9a" Name="Microsoft.Messaging, version 2.15.28004.0 and above, from Microsoft Corporation" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProductName="Microsoft.Messaging" BinaryName="*"&gt;
+					&lt;BinaryVersionRange LowSection="2.15.28004.0" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;/RuleCollection&gt;
+				</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/AppLocker/EnterpriseDataProtection/Microsoft/EXE/Policy</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>	  
+					&lt;RuleCollection Type="Exe" EnforcementMode="Enabled"&gt;
+					&lt;FilePublisherRule Id="c8360d06-f651-4883-abdd-9c3a95a415ff" Name="NOTEPAD.EXE, from O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" Description="" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;
+					&lt;Conditions&gt;
+					&lt;FilePublisherCondition PublisherName="O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US" ProductName="*" BinaryName="NOTEPAD.EXE"&gt;
+					&lt;BinaryVersionRange LowSection="*" HighSection="*" /&gt;
+					&lt;/FilePublisherCondition&gt;
+					&lt;/Conditions&gt;
+					&lt;/FilePublisherRule&gt;
+					&lt;/RuleCollection&gt;			
+				</Data>
+      </Item>
+    </Replace>
+    <Get>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/NodeCache/MobileIron/CacheVersion</LocURI>
+        </Target>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/NodeCache/MobileIron/ChangedNodes</LocURI>
+        </Target>
+      </Item>
+    </Get>
+    <Final/>
+  </SyncBody>
+</SyncML>

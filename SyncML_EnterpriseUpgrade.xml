@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncBody>
+    <Add>
+      <CmdID>250</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Registry/HKLM/SOFTWARE/Microsoft/Provisioning/OMADM/EnterpriseUpgrade</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>d369c9b6-2379-466d-9162-afc53361e3c2</Data>
+      </Item>
+    </Add>
+    <Final/>
+  </SyncBody>
+</SyncML>

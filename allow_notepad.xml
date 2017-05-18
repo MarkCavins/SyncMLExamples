@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>43</SessionID>
+    <MsgID>10</MsgID>
+    <Target>
+      <LocURI>858A02ECF16A7B4CA4B008DD0E684AA4</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://jellyfish.twilightparadox.com/mifs/c/wp/oma/mdm.html?c=afe81c74-74f1-49bd-a393-c9586e42845b</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>3g+d0jWMnO6G44F/M5Vw0w==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+    <Status>
+      <CmdID>26</CmdID>
+      <MsgRef>10</MsgRef>
+      <CmdRef>0</CmdRef>
+      <Cmd>SyncHdr</Cmd>
+      <Data>212</Data>
+    </Status>
+    <Replace>
+      <CmdID>27</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/Group_afe81c74-74f1-49bd-a393-c9586e42845b/EXE/Policy</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>&lt;RuleCollection Type="EXE" EnforcementMode="Enabled"&gt;&lt;FilePathRule Id="e9ae4398-5576-4863-a11e-5e3ea3c374c5" Name="Default_Allow_*" Description="Allow All" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;&lt;Conditions&gt;&lt;FilePathCondition Path="*"/&gt;&lt;/Conditions&gt;&lt;/FilePathRule&gt;&lt;/RuleCollection&gt;</Data>
+      </Item>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/AppLocker/ApplicationLaunchRestrictions/Group_afe81c74-74f1-49bd-a393-c9586e42845b/StoreApps/Policy</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>&lt;RuleCollection Type="Appx" EnforcementMode="Enabled"&gt;&lt;FilePublisherRule Id="3447961b-89d6-4976-b73f-3440f896f9d7" Name="Default_Allow_*_*_*" Description="Allow All" UserOrGroupSid="S-1-1-0" Action="Allow"&gt;&lt;Conditions&gt;&lt;FilePublisherCondition PublisherName="*" ProductName="*" BinaryName="*"&gt;&lt;BinaryVersionRange LowSection="*" HighSection="*"/&gt;&lt;/FilePublisherCondition&gt;&lt;/Conditions&gt;&lt;/FilePublisherRule&gt;&lt;/RuleCollection&gt;</Data>
+      </Item>
+    </Replace>
+    <Final/>
+  </SyncBody>
+</SyncML>

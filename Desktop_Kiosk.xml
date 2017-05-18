@@ -1,0 +1,17 @@
+<SyncML xmlns='SYNCML:SYNCML1.2'>
+   <SyncBody>
+       <Add>
+           <CmdID>2</CmdID>
+           <Item>
+               <Target>
+                   <LocURI>./Device/Vendor/MSFT/AssignedAccess/KioskModeApp</LocURI>
+               </Target>
+               <Meta>  
+                   <Format xmlns="syncml:metinf">chr</Format>  
+               </Meta>  
+               <Data>{"Account":"rs1\\mitest","AUMID":"Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"}</Data>
+           </Item>
+       </Add>
+       <Final />
+   </SyncBody>
+</SyncML>

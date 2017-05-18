@@ -1,0 +1,74 @@
+<SyncML xmlns="SYNCML:SYNCML1.2"> 
+   <SyncBody> 
+      <Replace> 
+         <CmdID>2</CmdID> 
+         <Item> 
+            <Target> 
+               <LocURI>./Vendor/MSFT/EnterpriseAssignedAccess/AssignedAccess/AssignedAccessXml</LocURI> 
+            </Target> 
+            <Data>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;HandheldLockdown version=&quot;1.0&quot; &gt;
+    &lt;Default&gt;
+        &lt;ActionCenter enabled=&quot;false&quot; /&gt;
+        &lt;Apps&gt;
+            &lt;!-- Settings --&gt;
+            &lt;Application productId=&quot;{2A4E62D8-8809-4787-89F8-69D0F01654FB}&quot;&gt;
+                &lt;PinToStart&gt;
+                    &lt;Size&gt;Small&lt;/Size&gt;
+                    &lt;Location&gt;
+                        &lt;LocationX&gt;1&lt;/LocationX&gt;
+                        &lt;LocationY&gt;0&lt;/LocationY&gt;
+                    &lt;/Location&gt;
+                &lt;/PinToStart&gt;
+            &lt;/Application&gt;
+            &lt;!-- Phone Apps --&gt;
+            &lt;Application productId=&quot;{395589FB-5884-4709-B9DF-F7D558663FFD}&quot;&gt;
+                &lt;PinToStart&gt;
+                    &lt;Size&gt;Small&lt;/Size&gt;
+                    &lt;Location&gt;
+                        &lt;LocationX&gt;1&lt;/LocationX&gt;
+                        &lt;LocationY&gt;1&lt;/LocationY&gt;
+                    &lt;/Location&gt;
+                &lt;/PinToStart&gt;
+            &lt;/Application&gt;
+            &lt;Application productId=&quot;{A558FEBA-85D7-4665-B5D8-A2FF9C19799B}&quot;
+            aumid=&quot;microsoft.windowscommunicationsapps_8wekyb3d8bbwe!microsoft.windowslive.mail&quot;&gt;
+                &lt;PinToStart&gt;
+                    &lt;Size&gt;Small&lt;/Size&gt;
+                    &lt;Location&gt;
+                        &lt;LocationX&gt;1&lt;/LocationX&gt;
+                        &lt;LocationY&gt;2&lt;/LocationY&gt;
+                    &lt;/Location&gt;
+                &lt;/PinToStart&gt;
+            &lt;/Application&gt;
+            &lt;Application productId=&quot;{A558FEBA-85D7-4665-B5D8-A2FF9C19799B}&quot;
+            aumid=&quot;microsoft.windowscommunicationsapps_8wekyb3d8bbwe!microsoft.windowslive.calendar&quot;&gt;
+                &lt;PinToStart&gt;
+                    &lt;Size&gt;Small&lt;/Size&gt;
+                    &lt;Location&gt;
+                        &lt;LocationX&gt;1&lt;/LocationX&gt;
+                        &lt;LocationY&gt;3&lt;/LocationY&gt;
+                    &lt;/Location&gt;
+                &lt;/PinToStart&gt;
+            &lt;/Application&gt;
+        &lt;/Apps&gt;
+        &lt;Buttons&gt;
+            &lt;ButtonLockdownList /&gt;
+            &lt;ButtonRemapList /&gt;
+        &lt;/Buttons&gt;
+        &lt;MenuItems&gt;
+            &lt;DisableMenuItems/&gt;
+        &lt;/MenuItems&gt;
+        &lt;Settings&gt;
+        &lt;/Settings&gt;
+        &lt;Tiles&gt;
+            &lt;EnableTileManipulation/&gt;
+        &lt;/Tiles&gt;
+        &lt;StartScreenSize&gt;Small&lt;/StartScreenSize&gt;
+    &lt;/Default&gt;
+&lt;/HandheldLockdown&gt;</Data> 
+         </Item> 
+      </Replace> 
+      <Final/> 
+   </SyncBody> 
+</SyncML> 
