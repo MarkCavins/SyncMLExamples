@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncBody>
+      <Replace>
+      <CmdID>200</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/DynamicManagement/Contexts/Bldg109/SettingsPack</LocURI>
+        </Target>
+        <Meta>
+          <Type xmlns="syncml:metinf">text/plain</Type>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>&lt;SyncML&gt;
+  &lt;SyncBody&gt;&lt;Replace&gt;&lt;CmdID&gt;1001&lt;/CmdID&gt;&lt;Item&gt;&lt;Target&gt;&lt;LocURI&gt;./Vendor/MSFT/Policy/Config/Experience/AllowCortana&lt;/LocURI&gt;&lt;/Target&gt;&lt;Meta&gt;&lt;Format xmlns=&quot;syncml:metinf&quot;&gt;int&lt;/Format&gt;&lt;/Meta&gt;&lt;Data&gt;0&lt;/Data&gt;&lt;/Item&gt;&lt;/Replace&gt;&lt;Final/&gt;&lt;/SyncBody&gt;&lt;/SyncML&gt;</Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>201</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/DynamicManagement/Contexts/Bldg109/SignalDefinition</LocURI>
+        </Target>
+        <Meta>
+          <Type xmlns="syncml:metinf">text/plain</Type>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>
+          &lt;rule schemaVersion=&quot;1.0&quot;&gt;
+           &lt;and&gt;
+                    &lt;signal type="geoloc" latitude="47.6375" longitude="-122.1402" radiusInMeters="100"/&gt;        
+                    &lt;signal type=&quot;time&quot;&gt;
+                              &lt;daily startTime=&quot;09:00:00&quot; endTime=&quot;17:00:00&quot;/&gt;
+                    &lt;/signal&gt;           
+           &lt;/and&gt;
+          &lt;/rule&gt;
+        </Data>
+      </Item>
+    </Replace>
+    <Replace>
+      <CmdID>202</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/DynamicManagement/Contexts/Bldg109/Altitude</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>3</Data>
+      </Item>
+    </Replace>
+    <Final/>
+  </SyncBody>
+</SyncML>
