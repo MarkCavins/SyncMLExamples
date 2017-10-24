@@ -1,0 +1,18 @@
+<SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncBody>
+    <Exec>
+      <CmdID>77</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/WindowsLicensing/UpgradeEditionWithLicense</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>&lt;License xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; ID=&quot;a793e49a-8bde-4be8-b191-1988f8a71635&quot; LicenseID=&quot;3bc06bc5-786b-e3ab-5d16-add8644a867d&quot; ContentID=&quot;3bc06bc5-786b-e3ab-5d16-add8644a867d&quot; Version=&quot;3&quot; Source=&quot;OEM&quot; xmlns=&quot;urn:schemas-microsoft-com:windows:store:licensing:ls&quot;&gt;&lt;Binding Binding_Type=&quot;Machine&quot;&gt;&lt;ProductID&gt;3bc06bc5-786b-e3ab-5d16-add8644a867d&lt;/ProductID&gt;&lt;PFM&gt;microsoft.windows.136.x20-43107_8wekyb3d8bbwe&lt;/PFM&gt;&lt;RequestorID&gt;2c3f1d47-426d-c7d7-face-ef1add208818&lt;/RequestorID&gt;&lt;LeaseRequired&gt;False&lt;/LeaseRequired&gt;&lt;/Binding&gt;&lt;LicenseInfo Type=&quot;Full&quot; LicenseUsage=&quot;Offline&quot; LicenseCategory=&quot;OEM&quot;&gt;&lt;IssuedDate&gt;2015-07-29T21:13:39.0828514Z&lt;/IssuedDate&gt;&lt;LastUpdateDate&gt;2015-07-29T17:13:39.0288205-04:00&lt;/LastUpdateDate&gt;&lt;BeginDate&gt;2015-07-29T17:13:39.0288205-04:00&lt;/BeginDate&gt;&lt;/LicenseInfo&gt;&lt;SPLicenseBlock&gt;FAAAAMQAAADJAAAACgAAAAMAAQADQrlVAgDLAAAAEAAAAMVrwDtreKvjXRat2GRKhn3OAAAAXAAAAG0AaQBjAHIAbwBzAG8AZgB0AC4AdwBpAG4AZABvAHcAcwAuADEAMwA2AC4AeAAyADAALQA0ADMAMQAwADcAXwA4AHcAZQBrAHkAYgAzAGQAOABiAGIAdwBlAAAAzQAAACIAAAABAFvfvD0tvrYnLdJF7ndsbEfgeObqJtd8MUbTnbFSnIzYIAAAAAQAAADDCblVzAAAAEQAAAABAAIAMZpaaVb+FA9azIkCNVfrfJfDcnMaK44sXTOyzsHBRSBipPsrqmPL/CVMTyYsUjhi+1ERL6hmrvv5sVZQV4DYVg==&lt;/SPLicenseBlock&gt;&lt;Signature xmlns=&quot;http://www.w3.org/2000/09/xmldsig#&quot;&gt;&lt;SignedInfo&gt;&lt;CanonicalizationMethod Algorithm=&quot;http://www.w3.org/2001/10/xml-exc-c14n#&quot; /&gt;&lt;SignatureMethod Algorithm=&quot;http://www.w3.org/2001/04/xmldsig-more#rsa-sha256&quot; /&gt;&lt;Reference URI=&quot;&quot;&gt;&lt;Transforms&gt;&lt;Transform Algorithm=&quot;http://www.w3.org/2000/09/xmldsig#enveloped-signature&quot; /&gt;&lt;/Transforms&gt;&lt;DigestMethod Algorithm=&quot;http://www.w3.org/2001/04/xmlenc#sha256&quot; /&gt;&lt;DigestValue&gt;EA6rRY8UAOtAqb4V8SQiIFyVf4llp8va9xyK5kKD0Jg=&lt;/DigestValue&gt;&lt;/Reference&gt;&lt;/SignedInfo&gt;&lt;SignatureValue&gt;K07+dXPKWHQCL0PZ5lE70UndUgPddZDI4Tit05yq/zYwTt/AHIPxTDj+pEc/xC2fu+ZDGRpP6R+44uH/+E03scWr4G11tt8L2nuOOwzsXjlNPWSZNje86iwemDhL2MMAp6KoE/n3tv0Psa8OfIgsoG1FzTwQEzwDgy5L4QuYQ0UWKNOVMul8JltJnL/7xEeDJe1+ojW6vGFDu8hNnJl9paZQpzLqBovUfvlNL4L81g9eStaVwZnnHXW4K3GqJpNxBn6tLF4pnxvRR3/3Kj4NYsBVlztvvynHEJpGxkVsaBGwTt0G78jSzS9nSN8ug/KpTAUg/E2yWwpTPLQAXvBsfw==&lt;/SignatureValue&gt;&lt;KeyInfo Id=&quot;_0f81b24f-bc40-2712-0d5d-e7c10085c330&quot;&gt;&lt;KeyValue&gt;&lt;RSAKeyValue&gt;&lt;Modulus&gt;oVSJXItDsaAIfwyR9bhh/ZSppCAO+in9POLWdC2/TQodgeHZzbdBvxJvKhpbrq6ZP0FsSElLwRoLAmv7zIuVw3Vb7tfQt5bjCDHRAG9fesNlYKV3ybyNrHyzglfZPRB5UJZw32yi03zQa+LLa05fjs6joEmlHc5BrGQrGrbNMBahz4cmuxKC4/dhEb7JZFUkc0MRhs/M3Ve511HQfKuG+92g1OffJdRsAPzWRdskPoN35knnqno7F85OBmGV/LNBgdtDWUH6di1eUCQFeKGfMp+Q/LFUX9jawTTEPn72tYbpYASug05Skcg6KTHlcLGzevxGw7BYsOsqfDka5n0YGw==&lt;/Modulus&gt;&lt;Exponent&gt;AAEAAQ==&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;&lt;/KeyValue&gt;&lt;/KeyInfo&gt;&lt;/Signature&gt;&lt;/License&gt;
+        </Data>
+      </Item>
+    </Exec>
+    <Final/>
+  </SyncBody>
+</SyncML>

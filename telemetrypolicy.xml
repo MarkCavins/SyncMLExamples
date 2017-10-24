@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncBody>
+    <Exec>
+      <CmdID>$CmdID$</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Vendor/MSFT/Policy/Config/System/AllowTelemetry</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Data>0</Data>
+      </Item>
+    </Exec>
+    <Final/>
+  </SyncBody>
+</SyncML>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncBody>
+      <CmdID>16</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/Policy/Config/Start/StartLayout</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>
+&lt;LayoutModificationTemplate xmlns:defaultlayout=&quot;http://schemas.microsoft.com/Start/2014/FullDefaultLayout&quot; xmlns:start=&quot;http://schemas.microsoft.com/Start/2014/StartLayout&quot; Version=&quot;1&quot; xmlns=&quot;http://schemas.microsoft.com/Start/2014/LayoutModification&quot;&gt;
+  &lt;LayoutOptions StartTileGroupCellWidth=&quot;6&quot; /&gt;
+  &lt;DefaultLayoutOverride&gt;
+    &lt;StartLayoutCollection&gt;
+      &lt;defaultlayout:StartLayout GroupCellWidth=&quot;6&quot;&gt;
+        &lt;start:Group Name=&quot;MobileIron Menu&quot;&gt;
+          &lt;start:Tile Size=&quot;2x2&quot; Column=&quot;0&quot; Row=&quot;0&quot; AppUserModelID=&quot;microsoft.windowscommunicationsapps_8wekyb3d8bbwe!Microsoft.WindowsLive.Calendar&quot; /&gt;
+          &lt;start:Tile Size=&quot;4x2&quot; Column=&quot;2&quot; Row=&quot;0&quot; AppUserModelID=&quot;Microsoft.WindowsStore_8wekyb3d8bbwe!App&quot; /&gt;
+          &lt;start:DesktopApplicationTile Size=&quot;2x2&quot; Column=&quot;0&quot; Row=&quot;2&quot; DesktopApplicationLinkPath=&quot;%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk&quot; /&gt;
+          &lt;start:Tile Size=&quot;1x1&quot; Column=&quot;3&quot; Row=&quot;2&quot; AppUserModelID=&quot;Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic&quot; /&gt;
+          &lt;start:Tile Size=&quot;2x2&quot; Column=&quot;2&quot; Row=&quot;6&quot; AppUserModelID=&quot;Microsoft.Windows.Cortana_cw5n1h2txyewy!CortanaUI&quot; /&gt;
+          &lt;start:Tile Size=&quot;1x1&quot; Column=&quot;2&quot; Row=&quot;2&quot; AppUserModelID=&quot;Microsoft.ZuneVideo_8wekyb3d8bbwe!Microsoft.ZuneVideo&quot; /&gt;
+          &lt;start:Tile Size=&quot;1x1&quot; Column=&quot;2&quot; Row=&quot;3&quot; AppUserModelID=&quot;Microsoft.WindowsCalculator_8wekyb3d8bbwe!App&quot; /&gt;
+          &lt;start:Tile Size=&quot;1x1&quot; Column=&quot;3&quot; Row=&quot;3&quot; AppUserModelID=&quot;Microsoft.WindowsMaps_8wekyb3d8bbwe!App&quot; /&gt;
+          &lt;start:DesktopApplicationTile Size=&quot;2x2&quot; Column=&quot;0&quot; Row=&quot;4&quot; DesktopApplicationLinkPath=&quot;%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Outlook 2016.lnk&quot; /&gt;
+          &lt;start:Tile Size=&quot;2x2&quot; Column=&quot;4&quot; Row=&quot;2&quot; AppUserModelID=&quot;Microsoft.RemoteDesktop_8wekyb3d8bbwe!App&quot; /&gt;
+          &lt;start:DesktopApplicationTile Size=&quot;2x2&quot; Column=&quot;2&quot; Row=&quot;4&quot; DesktopApplicationLinkPath=&quot;%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\PowerPoint 2016.lnk&quot; /&gt;
+          &lt;start:DesktopApplicationTile Size=&quot;2x2&quot; Column=&quot;4&quot; Row=&quot;4&quot; DesktopApplicationLinkPath=&quot;%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Word 2016.lnk&quot; /&gt;
+          &lt;start:DesktopApplicationTile Size=&quot;2x2&quot; Column=&quot;0&quot; Row=&quot;6&quot; DesktopApplicationLinkPath=&quot;%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Excel 2016.lnk&quot; /&gt;
+          &lt;start:Tile Size=&quot;2x2&quot; Column=&quot;4&quot; Row=&quot;6&quot; AppUserModelID=&quot;Microsoft.Messaging_8wekyb3d8bbwe!x27e26f40ye031y48a6yb130yd1f20388991ax&quot; /&gt;
+        &lt;/start:Group&gt;
+      &lt;/defaultlayout:StartLayout&gt;
+    &lt;/StartLayoutCollection&gt;
+  &lt;/DefaultLayoutOverride&gt;
+     &lt;CustomTaskbarLayoutCollection&gt;
+      &lt;defaultlayout:TaskbarLayout&gt;
+        &lt;taskbar:TaskbarPinList&gt;
+          &lt;taskbar:UWA AppUserModelID=&quot;Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge&quot; /&gt;
+          &lt;taskbar:DesktopApp DesktopApplicationLinkPath=&quot;%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk&quot; /&gt;
+          &lt;taskbar:DesktopApp DesktopApplicationLinkPath=&quot;%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\PowerPoint 2016.lnk&quot; /&gt;
+          &lt;taskbar:DesktopApp DesktopApplicationLinkPath=&quot;%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Word 2016.lnk&quot; /&gt;
+        &lt;/taskbar:TaskbarPinList&gt;
+      &lt;/defaultlayout:TaskbarLayout&gt;
+    &lt;/CustomTaskbarLayoutCollection&gt;
+&lt;/LayoutModificationTemplate&gt;
+       </Data>
+      </Item>
+    </Add>
+    <Final/>
+  </SyncBody>
+</SyncML>

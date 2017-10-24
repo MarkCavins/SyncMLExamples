@@ -1,0 +1,13 @@
+<SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncBody>
+    <Get>
+      <CmdID>900</CmdID>
+        <Item>
+          <Target>
+            <LocURI>./Device/Vendor/MSFT/WindowsLicensing/Edition</LocURI>
+          </Target>
+        </Item>
+    </Get>
+    <Final/>
+  </SyncBody>
+</SyncML>

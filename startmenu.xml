@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
+  <SyncHdr>
+    <VerDTD>1.2</VerDTD>
+    <VerProto>DM/1.2</VerProto>
+    <SessionID>15</SessionID>
+    <MsgID>6</MsgID>
+    <Target>
+      <LocURI>858A02ECF16A7B4CA4B008DD0E684AA4</LocURI>
+    </Target>
+    <Source>
+      <LocURI>https://jellyfish.twilightparadox.com/mifs/c/wp/oma/mdm.html?c=21fb9f67-48e0-4c78-9732-2ecc57dde220</LocURI>
+    </Source>
+    <Cred>
+      <Meta>
+        <Format xmlns="syncml:metinf">b64</Format>
+        <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+      </Meta>
+      <Data>GTx03WsReyyXBjJCACTWmg==</Data>
+    </Cred>
+  </SyncHdr>
+  <SyncBody>
+    <Status>
+      <CmdID>15</CmdID>
+      <MsgRef>6</MsgRef>
+      <CmdRef>0</CmdRef>
+      <Cmd>SyncHdr</Cmd>
+      <Data>212</Data>
+    </Status>
+    <Add>
+      <CmdID>16</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/Policy/Config/Start/StartLayout</LocURI>
+        </Target>
+        <Meta>
+          <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Data>
+&amp;lt;wdcml:p xmlns:wdcml=&amp;quot;http://microsoft.com/wdcml&amp;quot;&amp;gt;Example of a layout file produced by Export-StartLayout:&amp;lt;/wdcml:p&amp;gt;&amp;lt;wdcml:snippet xmlns:wdcml=&amp;quot;http://microsoft.com/wdcml&amp;quot;&amp;gt;&amp;lt;![CDATA[&amp;lt;LayoutModificationTemplate Version=&amp;quot;1&amp;quot; xmlns=&amp;quot;http://schemas.microsoft.com/Start/2014/LayoutModification&amp;quot;&amp;gt;
+      &amp;lt;DefaultLayoutOverride&amp;gt;
+        &amp;lt;StartLayoutCollection&amp;gt;
+          &amp;lt;defaultlayout:StartLayout GroupCellWidth=&amp;quot;6&amp;quot; xmlns:defaultlayout=&amp;quot;http://schemas.microsoft.com/Start/2014/FullDefaultLayout&amp;quot;&amp;gt;
+            &amp;lt;start:Group Name=&amp;quot;Life at a glance&amp;quot; xmlns:start=&amp;quot;http://schemas.microsoft.com/Start/2014/StartLayout&amp;quot;&amp;gt;
+              &amp;lt;start:Tile Size=&amp;quot;2x2&amp;quot; Column=&amp;quot;0&amp;quot; Row=&amp;quot;0&amp;quot; AppUserModelID=&amp;quot;Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge&amp;quot; /&amp;gt;
+              &amp;lt;start:Tile Size=&amp;quot;2x2&amp;quot; Column=&amp;quot;4&amp;quot; Row=&amp;quot;0&amp;quot; AppUserModelID=&amp;quot;Microsoft.Windows.Cortana_cw5n1h2txyewy!CortanaUI&amp;quot; /&amp;gt;
+              &amp;lt;start:Tile Size=&amp;quot;2x2&amp;quot; Column=&amp;quot;2&amp;quot; Row=&amp;quot;0&amp;quot; AppUserModelID=&amp;quot;Microsoft.BingWeather_8wekyb3d8bbwe!App&amp;quot; /&amp;gt;
+            &amp;lt;/start:Group&amp;gt;        
+          &amp;lt;/defaultlayout:StartLayout&amp;gt;
+        &amp;lt;/StartLayoutCollection&amp;gt;
+      &amp;lt;/DefaultLayoutOverride&amp;gt;
+    &amp;lt;/LayoutModificationTemplate&amp;gt;]]&amp;gt;&amp;lt;/wdcml:snippet&amp;gt;
+       </Data>
+      </Item>
+    </Add>
+    <Final/>
+  </SyncBody>
+</SyncML>
