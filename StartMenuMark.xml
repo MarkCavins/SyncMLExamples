@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2">
   <SyncBody>
+  <Replace>
       <CmdID>16</CmdID>
       <Item>
         <Target>
@@ -7,9 +8,10 @@
         </Target>
         <Meta>
           <Format xmlns="syncml:metinf">chr</Format>
+          <Type>text/plain</Type>
         </Meta>
         <Data>
-&lt;LayoutModificationTemplate xmlns:defaultlayout=&quot;http://schemas.microsoft.com/Start/2014/FullDefaultLayout&quot; xmlns:start=&quot;http://schemas.microsoft.com/Start/2014/StartLayout&quot; Version=&quot;1&quot; xmlns=&quot;http://schemas.microsoft.com/Start/2014/LayoutModification&quot;&gt;
+<![CDATA[&lt;LayoutModificationTemplate xmlns:defaultlayout=&quot;http://schemas.microsoft.com/Start/2014/FullDefaultLayout&quot; xmlns:start=&quot;http://schemas.microsoft.com/Start/2014/StartLayout&quot; Version=&quot;1&quot; xmlns=&quot;http://schemas.microsoft.com/Start/2014/LayoutModification&quot;&gt;
   &lt;LayoutOptions StartTileGroupCellWidth=&quot;6&quot; /&gt;
   &lt;DefaultLayoutOverride&gt;
     &lt;StartLayoutCollection&gt;
@@ -44,9 +46,10 @@
       &lt;/defaultlayout:TaskbarLayout&gt;
     &lt;/CustomTaskbarLayoutCollection&gt;
 &lt;/LayoutModificationTemplate&gt;
+]]>
        </Data>
       </Item>
-    </Add>
+    </Replace>
     <Final/>
   </SyncBody>
 </SyncML>
