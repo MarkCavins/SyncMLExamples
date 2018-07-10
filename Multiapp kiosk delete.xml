@@ -1,0 +1,29 @@
+<SyncML xmlns='SYNCML:SYNCML1.2'>
+  <SyncBody>
+    <Get>
+      <CmdID>2</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/AssignedAccess/Configuration</LocURI>
+        </Target>
+      </Item>
+    </Get>
+    <Delete>
+      <CmdID>3</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/AssignedAccess/Configuration</LocURI>
+        </Target>
+      </Item>
+    </Delete>
+    <Get>
+      <CmdID>4</CmdID>
+      <Item>
+        <Target>
+          <LocURI>./Device/Vendor/MSFT/AssignedAccess/Configuration</LocURI>
+        </Target>
+      </Item>
+    </Get>
+    <Final />
+  </SyncBody>
+</SyncML>

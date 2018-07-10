@@ -53,7 +53,7 @@
   </Profiles> 
   <Configs> 
     <Config> 
-      <Account>test1</Account> 
+	  <AutoLogonAccount/>
       <DefaultProfile Id="{9A2A490F-10F6-4764-974A-43B19E722C23}"/> 
     </Config> 
   </Configs> 
